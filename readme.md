@@ -7,8 +7,8 @@
 -	Descargar e instalar Heroku CLI https://devcenter.heroku.com/articles/heroku-cli . 
 -	Abrir una terminal en el directorio donde están los archivos de la API y el Dockerfile y escribir los siguientes comandos: 
 
-heroku login
-docker ps
-heroku container:login
-heroku container:push web –app %appNameHeroku%
-heroku container:release web –app %appNameHeroku%
+    - heroku login
+    - docker ps
+    - heroku container:login
+    - heroku container:push web –app %appNameHeroku%
+    - heroku container:release web –app %appNameHeroku%

@@ -4,8 +4,8 @@ FROM python:3.7.3-stretch
 LABEL maintainer="aorregop@unal.edu.co"
 
 # Make working directories
-RUN  mkdir -p  /amp_generator_api
-WORKDIR  /amp_generator_api
+RUN  mkdir -p  /ap_deploy_models
+WORKDIR  /ap_deploy_models
 
 # Upgrade pip with no cache
 RUN pip install --no-cache-dir -U pip

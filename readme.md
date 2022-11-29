@@ -1,3 +1,14 @@
+# Despliegue de un modelo de Machine Learning como una API REST
+
+Este repositorio tiene un ejemplo de despliegue de un modelo de clasificación del conjuntos de datos "iris dataset" como una API REST utilizando FastAPI mediante un contenedor docker;
+El contenido del repositorio es el siguiente:
+
+- models : Carpeta con los modelos guardados.
+- Dockerfile : Archivo para la creación de la imagen docker.
+- main.py : Script python de la API.
+- model development.ipynb : Notebook del desarrollo del modelo.
+- requirements.txt : Archivo con las dependencias necesarias.
+
 # Instrucciones de despliegue en Heroku
 
 -	Descargar e instalar docker desktop https://www.docker.com/ 
